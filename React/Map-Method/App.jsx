@@ -42,44 +42,20 @@
 
 //==============================================
 
-// const city=["Bhopal","Indore","Gwalior","Ujjain"];
-// const ans=city.map((key)=>{
-//   return(
-//     <>
-//     <option>{key}</option>
-//     </>
-//   )
-// })
-
-// const App=()=>{
-  
-//   return(
-//     <>
-//      <select>{ans}</select>
-//     </>
-//   )
-// }
-// export default App;
-
-//==================================================
-
-const sub=["PHP","ORACLE","JAVA","PYTHON"];
-
-  const mysub=sub.map((key)=>{
-    return(
-      <>
-      <li>{key}</li>
-      </>
-    )
-  })
-
-const App=()=>{
+const city=["Bhopal","Indore","Gwalior","Ujjain"];
+const ans=city.map((key)=>{
   return(
     <>
-     <h1>Welcome to cybrom </h1>
-     <ol>
-      {mysub}
-     </ol>
+    <option>{key}</option>
+    </>
+  )
+})
+
+const App=()=>{
+  
+  return(
+    <>
+     <select>{ans}</select>
     </>
   )
 }
