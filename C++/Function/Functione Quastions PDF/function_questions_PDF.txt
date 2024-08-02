@@ -1,0 +1,102 @@
+1) having parameter  having return
+==================================
+1>WAP to create a function namedaverage that is created to find out the average of 5 numbers 
+parameter -->5 number
+return --->string (a message success)
+
+2>-->Write a program to find the factorial of any number entered by user
+parameter -->int
+return --->int (or long long in case of higher number) i,e result
+
+3-->Write a program that prompts the user to input an integer and then 
+outputs the number with the digits reversed.
+parameter -->int
+return --->int 
+
+4->WAP to print whether a number is armstrong number or not
+parameter -->int
+return --->string (a message "yes" or "no")
+
+5->WAP to print whether a number is palindrome number or not
+parameter -->int
+return --->string (a message "yes" or "no")
+
+
+
+
+2) having parameter  no return
+==============================
+1>WAP to concatenate name and surname of a user having one space
+between them
+parameter -->name,surname
+return --->no return 
+
+2-->Write a program that ask the user to input a positive integer. 
+It should then print the multiplication table of that number.
+
+parameter -->int
+return --->no return 
+
+3-->Write a program that ask the user two input . 
+print the multiplication table of that range of numbers(nesting)
+
+parameter -->int,int(range)
+return --->no return
+
+4-->WAP to print all prime number in given range. 
+parameter -->int,int(range)
+return --->no return
+
+5-->WAP to print all armstrong number in given range.
+parameter -->int,int(range)
+return --->no return
+
+6>WAP to print all palindrome number in given range
+parameter -->int,int(range)
+return --->no return
+
+
+
+
+3) no parameter no return
+=========================
+1>WAP to find the area of rectangle taking all essential input in function
+itself
+
+parameter -->no
+return --->no
+
+
+2>Two numbers are entered through the keyboard. Write a program to find
+the value of one number raised to the power of another. 
+parameter -->no
+return --->no
+
+
+3>Write a program to print Fibonacci series of n terms where n is input by user :
+0 1 1 2 3 5 8 13 24 ..... 
+parameter -->no
+return --->no
+
+
+
+
+4) no parameter having return
+=============================
+1>WAP to find the area of square taking all essential input in function
+itself,and return result.(main print)
+
+parameter -->no
+return --->return int
+
+2-->WAP to print whether a number is prime number or not.
+
+parameter -->no
+return --->return string ("yes" or "no")
+
+3-->Write a program to calculate HCF of Two given number
+
+parameter -->no
+return --->return int
+
+
