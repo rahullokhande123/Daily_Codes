@@ -23,25 +23,25 @@ int main(){
 }
 //==================================================================================
 
-//#include <iostream>
-//#include <fstream>
-//using namespace std;
-//int main(){
-//	ofstream o;
-//	o.open("File_hiding.txt",ios::out|ios::app);
-//	string s;
-//	string s1;
-//	while(1){
-//	o<<"Enter Number:";
-//	getline(cin,s);
-//	o<<s<<endl;
-//	   	cout<<"Do you wanna continue type any character othorvise type exit for exit:";
-//    	getline(cin,s1);
-//    	if(s1=="exit")
-//	            break;	
-//	} 
-//	o.close(); 
-//}
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main(){
+	ofstream o;
+	o.open("File_hiding.txt",ios::out|ios::app);
+	string s;
+	string s1;
+	while(1){
+	o<<"Enter Number:";
+	getline(cin,s);
+	o<<s<<endl;
+	   	cout<<"Do you wanna continue type any character othorvise type exit for exit:";
+   	getline(cin,s1);
+   	if(s1=="exit")
+	            break;	
+	} 
+	o.close(); 
+}
 
 //=================================================================================
 //#include <iostream>
