@@ -1,14 +1,14 @@
-//#include <iostream>
-//#include <fstream>
-//// fstream--> ifstream,ofstream,fstream
-//using namespace std;
-//int main(){
-//	ofstream obj1;
-//	obj1.open("E:\\xyz.txt");
-////	obj1<<"this is my contant\n";
-//	obj1<<"xxxxxxxxxxxxxxxxxxxxxxxxxxx";
-//	obj1.close();
-//}
+#include <iostream>
+#include <fstream>
+// fstream--> ifstream,ofstream,fstream
+using namespace std;
+int main(){
+	ofstream obj1;
+	obj1.open("E:\\xyz.txt");
+//	obj1<<"this is my contant\n";
+	obj1<<"xxxxxxxxxxxxxxxxxxxxxxxxxxx";
+	obj1.close();
+}
 
 //===================================================================================
 
