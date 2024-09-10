@@ -44,48 +44,48 @@ int main(){
 }
 
 //=================================================================================
-//#include <iostream>
-//#include <fstream>
-//using namespace std;
-//int main(){
-//	ofstream ra;
-//	ra.open("filehiding.txt");
-//	string s;
-//	string s1;
-//	while(1){
-//		cout<<"Enter Number:";
-//		getline(cin,s);
-//		ra<<s<<endl;
-//		cout<<"Do you wanna continue type any character othorvise type exit for exit:";
-//		getline(cin,s1);
-//		if(s1=="exit")
-//		    break;
-//		
-//	}
-//	ra.close();
-//}
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main(){
+	ofstream ra;
+	ra.open("filehiding.txt");
+	string s;
+	string s1;
+	while(1){
+		cout<<"Enter Number:";
+		getline(cin,s);
+		ra<<s<<endl;
+		cout<<"Do you wanna continue type any character othorvise type exit for exit:";
+		getline(cin,s1);
+		if(s1=="exit")
+		    break;
+		
+	}
+	ra.close();
+}
 
 //===================================================================================
-//#include <iostream>
-//#include <fstream>
-//using namespace std;
-//int main(){
-//	ofstream ma;
-//	ma.open("index.txt",ios::out|ios::app);
-//	string s;
-//	string s1;
-//	while(1){
-//		cout<<"Enter Number:";
-//		getline(cin,s);
-//		ma<<s<<endl;
-//		cout<<"Do you wanna continue type any character othorvise type exit for exit:";
-//		getline(cin,s1);
-//		if(s1=="exit")
-//		   break;
-//	}
-//	ma.close();
-//	
-//}
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main(){
+	ofstream ma;
+	ma.open("index.txt",ios::out|ios::app);
+	string s;
+	string s1;
+	while(1){
+		cout<<"Enter Number:";
+		getline(cin,s);
+		ma<<s<<endl;
+		cout<<"Do you wanna continue type any character othorvise type exit for exit:";
+		getline(cin,s1);
+		if(s1=="exit")
+		   break;
+	}
+	ma.close();
+	
+}
 
   
 
