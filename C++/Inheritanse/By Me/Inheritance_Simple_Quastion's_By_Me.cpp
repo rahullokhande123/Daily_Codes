@@ -38,48 +38,48 @@ int main(){
 
 //====================== Qustion 2 By Normal Inheritance ======================
 
-class Shape{
-	protected:
-		int redius;
-		double l,b;
-};
-class Circle:public Shape{
-	public:
-		Circle(int r){
-			redius=r;
-		}
-	void Calculate_area(){
-	   double area=3.14*redius*redius;
-	   cout<<"Area Of Circle:"<<area<<endl;
-	   }
-	void Perimeter(){
-	   double Perimeter=3.14*2*redius;
-	   cout<<"Perimeter Of Circle:"<<Perimeter<<endl;
-	   }
-};
-class Rectangle:public Shape{
-	public:
-		Rectangle(double len,double bre){
-			l=len;
-			b=bre;
-		}
-	void Calculate_area(){
-	   double area=l*b;
-	   cout<<"Area Of Rectangle:"<<area<<endl;
-	   }
-	void Perimeter(){
-	   double Perimeter=2*(l+b);
-	   cout<<"Perimeter Of Rectangle:"<<Perimeter<<endl;
-	   }
-};
-int main(){
-	Circle c(4);
-	Rectangle r(2.0,4.0);
-	c.Calculate_area();
-	c.Perimeter();
-	r.Calculate_area();
-	r.Perimeter();	
-}
+// class Shape{
+// 	protected:
+// 		int redius;
+// 		double l,b;
+// };
+// class Circle:public Shape{
+// 	public:
+// 		Circle(int r){
+// 			redius=r;
+// 		}
+// 	void Calculate_area(){
+// 	   double area=3.14*redius*redius;
+// 	   cout<<"Area Of Circle:"<<area<<endl;
+// 	   }
+// 	void Perimeter(){
+// 	   double Perimeter=3.14*2*redius;
+// 	   cout<<"Perimeter Of Circle:"<<Perimeter<<endl;
+// 	   }
+// };
+// class Rectangle:public Shape{
+// 	public:
+// 		Rectangle(double len,double bre){
+// 			l=len;
+// 			b=bre;
+// 		}
+// 	void Calculate_area(){
+// 	   double area=l*b;
+// 	   cout<<"Area Of Rectangle:"<<area<<endl;
+// 	   }
+// 	void Perimeter(){
+// 	   double Perimeter=2*(l+b);
+// 	   cout<<"Perimeter Of Rectangle:"<<Perimeter<<endl;
+// 	   }
+// };
+// int main(){
+// 	Circle c(4);
+// 	Rectangle r(2.0,4.0);
+// 	c.Calculate_area();
+// 	c.Perimeter();
+// 	r.Calculate_area();
+// 	r.Perimeter();	
+// }
 
 //====================== Qustion 3 By Normal Inheritance ======================
 
