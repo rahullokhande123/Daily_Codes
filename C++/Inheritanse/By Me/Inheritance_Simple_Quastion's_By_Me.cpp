@@ -1,40 +1,40 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-//================== Qustion 1 By Normal Inheritance =================
-class Person{
-	protected:
-		string name,address;
-};
-class Teacher:public Person{
-	public:
-		Teacher(string n, string a){
-			name=n;
-			address=a;
-		}
-	void display(){
-	   cout<<"Teachaer Name:"<<name<<endl;
-	   cout<<"Address:"<<address<<endl;
-	   }
-};
-class Student:public Person{
-	public:
-		Student(string n, string a){
-			name=n;
-			address=a;
-		}
-	void display(){
-	   cout<<"Student Name:"<<name<<endl;
-	   cout<<"Address:"<<address<<endl;
-	   }
-};
-int main(){
-	Teacher t("Arun","Bhopal");
-	Student s("Rahul","Betul");
-	t.display();
-	s.display();
+// //================== Qustion 1 By Normal Inheritance =================
+// class Person{
+// 	protected:
+// 		string name,address;
+// };
+// class Teacher:public Person{
+// 	public:
+// 		Teacher(string n, string a){
+// 			name=n;
+// 			address=a;
+// 		}
+// 	void display(){
+// 	   cout<<"Teachaer Name:"<<name<<endl;
+// 	   cout<<"Address:"<<address<<endl;
+// 	   }
+// };
+// class Student:public Person{
+// 	public:
+// 		Student(string n, string a){
+// 			name=n;
+// 			address=a;
+// 		}
+// 	void display(){
+// 	   cout<<"Student Name:"<<name<<endl;
+// 	   cout<<"Address:"<<address<<endl;
+// 	   }
+// };
+// int main(){
+// 	Teacher t("Arun","Bhopal");
+// 	Student s("Rahul","Betul");
+// 	t.display();
+// 	s.display();
 	
-}
+// }
 
 //====================== Qustion 2 By Normal Inheritance ======================
 
