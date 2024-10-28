@@ -1,0 +1,21 @@
+Create a class to print the area of a square and a rectangle.
+The class has two functions with the same name but different
+number of parameters. The function for printing the area of 
+rectangle has two parameters which are its length and breadth
+respectively while the other function for printing the area of
+square has one parameter which is the side of the square.
+
+
+Create a class Bank with a data member named amount.
+Now make two member function of this class with same name 'addamount' as follows:
+1 - without any parameter - flat 100 rs amount will be added to the amount
+2 - having a parameter which is the amount that will be added to the amount
+Create an object of the Bank class and 
+display the final amount Bank.
+
+Create a class named Message.Use function overloading and create a function mymessage()
+with no parameter and with string parameter, if nothing is passed to it,
+then the message "I love programming languages" should be printed.
+If some String is passed to it as a parameter, then in place of "programming languages"
+the name of that String variable should be printed.
+For example, if we pass "cpp", then "I love cpp" should be printed.
