@@ -1,0 +1,25 @@
+Q.1>Design a base class Person with name and address attributes. Derive classes Student and Teacher from Person.
+
+Q.2>Create a base class Shape with methods to calculate area and perimeter. 
+Derive classes Circle and Rectangle.
+
+Q.3>Implement a base class BankAccount with methods for deposit and withdraw. 
+Derive classes SavingsAccount and 
+CheckingAccount.
+
+
+polymorphism
+============
+Q.4>Design a base class Media with a virtual function play(). Derive classes Audio and 
+Video with their own play() methods.
+
+Q.5>Create a base class Employee with virtual functions calculateSalary() and displayDetails().
+ Derive classes Manager and Worker.
+
+
+Multiple Inheritance:
+
+Q.5>Design a base class Person with attributes name and address. 
+Create another base class Contact with email and phone. Derive Student from both.
+Q.6>Implement a base class Worker with attributes name and salary. 
+Create a class Manager derived from both Worker and Contact.
