@@ -49,17 +49,17 @@ using namespace std;
 //	b.display();
 //}
 //======================== Class Name Massege ===============================
-class Massege{
-	public:
-		void mymassage(){
-			cout<<"I Love Programming Languages:"<<endl;
-		}
-		void mymassage(string m){
-			cout<<"I Love "<<m<<endl;
-		}
-};
-int main(){
-	Massege m;
-	m.mymassage();
-	m.mymassage("C++");
-}
+// class Massege{
+// 	public:
+// 		void mymassage(){
+// 			cout<<"I Love Programming Languages:"<<endl;
+// 		}
+// 		void mymassage(string m){
+// 			cout<<"I Love "<<m<<endl;
+// 		}
+// };
+// int main(){
+// 	Massege m;
+// 	m.mymassage();
+// 	m.mymassage("C++");
+// }
