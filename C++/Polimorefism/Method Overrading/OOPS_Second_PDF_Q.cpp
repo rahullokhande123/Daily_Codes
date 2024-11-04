@@ -1,60 +1,60 @@
 
 // ============================= Quastion 1 =================================
 
-#include <iostream>
-using namespace std;
-class Shapes{
-	protected:
-		int d1,d2;
-	public:
-		Shapes(int a){
-			d1=a;
-		}
-		Shapes(int a,int b){
-			d1=a;
-			d2=b;
-		}
-		virtual void calculate_area(){
-			cout<<"Area calulalet here";
-		}
-};
-class Circle:public Shapes{
-	public:
-		Circle(int a): Shapes(a){
+// #include <iostream>
+// using namespace std;
+// class Shapes{
+// 	protected:
+// 		int d1,d2;
+// 	public:
+// 		Shapes(int a){
+// 			d1=a;
+// 		}
+// 		Shapes(int a,int b){
+// 			d1=a;
+// 			d2=b;
+// 		}
+// 		virtual void calculate_area(){
+// 			cout<<"Area calulalet here";
+// 		}
+// };
+// class Circle:public Shapes{
+// 	public:
+// 		Circle(int a): Shapes(a){
 			
-		}
-		void calculate_area(){
-			cout<<"Area Of Circle:"<<3.141*d1*d1<<endl;
-		}
-};
-class Squre:public Shapes{
-	public:
-		Squre(int a):Shapes(a){
+// 		}
+// 		void calculate_area(){
+// 			cout<<"Area Of Circle:"<<3.141*d1*d1<<endl;
+// 		}
+// };
+// class Squre:public Shapes{
+// 	public:
+// 		Squre(int a):Shapes(a){
 			
-		}
-		void calculate_area(){
-			cout<<"Area Of Square:"<<d1*d1<<endl;
-		}
-};
-class Tringal:public Shapes{
-	public:
-		Tringal(int a,int b):Shapes(a,b){
+// 		}
+// 		void calculate_area(){
+// 			cout<<"Area Of Square:"<<d1*d1<<endl;
+// 		}
+// };
+// class Tringal:public Shapes{
+// 	public:
+// 		Tringal(int a,int b):Shapes(a,b){
 			
-		}
-		void calculate_area(){
-			cout<<"Area Of Tringle:"<<0.5*d1*d2<<endl;
-		}
-};
-int main(){
-	Shapes *C=new Circle(2);
-	Shapes *S=new Squre(2);
-	Shapes *T=new Tringal(2,6);
+// 		}
+// 		void calculate_area(){
+// 			cout<<"Area Of Tringle:"<<0.5*d1*d2<<endl;
+// 		}
+// };
+// int main(){
+// 	Shapes *C=new Circle(2);
+// 	Shapes *S=new Squre(2);
+// 	Shapes *T=new Tringal(2,6);
 	
-	Shapes * Ar[]={C,S,T};
-	for(int i=0;i<3;i++)
-	       Ar[i]->calculate_area();
+// 	Shapes * Ar[]={C,S,T};
+// 	for(int i=0;i<3;i++)
+// 	       Ar[i]->calculate_area();
 
-}
+// }
 
 // ============================= Quastion 2 =================================
 
