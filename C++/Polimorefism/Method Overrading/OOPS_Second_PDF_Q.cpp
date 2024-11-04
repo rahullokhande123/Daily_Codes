@@ -214,46 +214,46 @@
 //}
 //========================= Quastion 5 ==============================
 
-//#include <iostream>
-//using namespace std;
-//class  Employee{
-//	protected:
-//		string name;
-//		int id;
-//	Employee(string n, int i){
-//		name=n;
-//		id=i;
-//	}
-//	virtual void displayDetails(){
-//		
-//	}	
-//
-//};
-//class Maneger:public Employee{
-//	public:
-//	Maneger(string n, int i):Employee(n,i){
-//		
-//	}
-//	void displayDetails(){
-//		cout<<"Name:"<<name<<endl;
-//		cout<<"ID"<<id<<endl;
-//	}
-//};
-//class Engineer:public Employee{
-//	public:
-//		string des;
-//	Engineer(string n, int i,string d):Employee(n,i){
-//		des=d;
-//	}
-//	void displayDetails(){
-//		cout<<"Name:"<<name<<endl;
-//		cout<<"ID:"<<id<<endl;
-//		cout<<"Designation:"<<des<<endl;
-//	}
-//};
-//int main(){
-//	Maneger m("Rahul",101);
-//	m.displayDetails();
-//	Engineer e("Rahul",122,"Engineer");
-//	e.displayDetails();	
-//}
+#include <iostream>
+using namespace std;
+class  Employee{
+	protected:
+		string name;
+		int id;
+	Employee(string n, int i){
+		name=n;
+		id=i;
+	}
+	virtual void displayDetails(){
+		
+	}	
+
+};
+class Maneger:public Employee{
+	public:
+	Maneger(string n, int i):Employee(n,i){
+		
+	}
+	void displayDetails(){
+		cout<<"Name:"<<name<<endl;
+		cout<<"ID"<<id<<endl;
+	}
+};
+class Engineer:public Employee{
+	public:
+		string des;
+	Engineer(string n, int i,string d):Employee(n,i){
+		des=d;
+	}
+	void displayDetails(){
+		cout<<"Name:"<<name<<endl;
+		cout<<"ID:"<<id<<endl;
+		cout<<"Designation:"<<des<<endl;
+	}
+};
+int main(){
+	Maneger m("Rahul",101);
+	m.displayDetails();
+	Engineer e("Rahul",122,"Engineer");
+	e.displayDetails();	
+}
