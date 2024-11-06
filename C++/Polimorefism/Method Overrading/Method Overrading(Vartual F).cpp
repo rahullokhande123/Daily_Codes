@@ -1,28 +1,28 @@
 #include <iostream>
 using namespace std;
-//class Employee{
-//	int eid,year;
-//	double sal;
-//	string name,dep;
-//	
-//	public:
-//		Employee(int id, string n, string dp,double s, int y){
-//			eid=id;
-//			name=n;
-//			dep=dp;
-//			year=y;
-//			sal=s;	
-//		}
-//		void display(){
-//			cout<<"Eid: "<<eid<<endl<<"Name: "<<name<<endl<<"Department: "<<dep<<endl;
-//			cout<<"Year of service: "<<year<<endl<<"Salary: "<<sal<<endl;
-//		}
-//	
-//};
-//int main(){
-//	Employee e(101,"Rohan","HR",5,40000);
-//	e.display();
-//}
+class Employee{
+	int eid,year;
+	double sal;
+	string name,dep;
+	
+	public:
+		Employee(int id, string n, string dp,double s, int y){
+			eid=id;
+			name=n;
+			dep=dp;
+			year=y;
+			sal=s;	
+		}
+		void display(){
+			cout<<"Eid: "<<eid<<endl<<"Name: "<<name<<endl<<"Department: "<<dep<<endl;
+			cout<<"Year of service: "<<year<<endl<<"Salary: "<<sal<<endl;
+		}
+	
+};
+int main(){
+	Employee e(101,"Rohan","HR",5,40000);
+	e.display();
+}
 //============================ Virtual Function Quastion's ==================================
 //class Employee{
 //	public:
