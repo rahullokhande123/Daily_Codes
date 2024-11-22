@@ -37,45 +37,135 @@ using namespace std;
    
 // }
 
+// ========================================= Question 2 =========================================
 
+// class Shape{
+// 	public:
+// 		virtual void calculate_area()=0;
+// 		virtual void perimeter()=0;
+// 		void information(){
+// 			cout<<"Show calculate area and perimeter of Circle And Rectangle";
+// 		}
+// };
+// class Circle:public Shape{
+// 	void calculate_area(){
+// 		double n=4.0;
+// 		double area=3.14*n*n;
+// 		cout<<"Circ-Calculate area\n"<<area<<endl;
+// 	}
+// 	void perimeter(){
+// 		double n=4.0;
+// 		double perimeter=2*3.14*n; // 2PaiR
+// 		cout<<"Circ-Perimeter\n"<<perimeter<<endl;
+// 	}
+// };
+// class Rectangle:public Shape{
+// 	void calculate_area(){
+// 		double l=2,b=4;
+// 		double area=l*b;
+// 		cout<<"Rect-Calculate area\n"<<area<<endl;
+// 	}
+// 	void perimeter(){
+// 		double l=2,b=4;
+// 		double perimeter=2*(l+b);
+// 		cout<<"Rect-Perimeter\n"<<perimeter<<endl;
+// 	}
+// };
+// int main(){
+// 	Shape *p= new Circle;
+// 	Shape *p2= new Rectangle;
+// 	p->calculate_area();
+// 	p->perimeter();
+// 	p2->calculate_area();
+// 	p2->perimeter();
+// }
 
-class Shape{
+//================================ Qustion 3 ===============================
+//class BankAccount{
+//	public:
+//		virtual void deposit()=0;
+//		virtual void withdraw()=0;
+//		void information(){
+//			cout<<"Checking BankAcoount";
+//		}
+//};
+//class SavingsAccount:public BankAccount{
+//
+//	void deposit(){
+//		int amount=10000,deposit=12000;
+//		    deposit=deposit+amount;
+//		    cout<<"SavingsAccount Amount After Deposit"<<deposit<<endl;
+//	}
+//	void withdraw(){
+//		int amount=10000,deposit=22000,withdraw=7000;
+//		deposit=deposit-withdraw;
+//		cout<<"SavingsAccount Amount After Withdraw"<<deposit<<endl;
+//	}
+//};
+//class CheckingAccount:public BankAccount{
+//	void deposit(){
+//		cout<<"CheckingAccount Deposit\n";
+//	}
+//	void withdraw(){
+//		cout<<"CheckingAccount Withdraw\n";
+//	}
+//};
+//int main(){
+//	BankAccount *p= new SavingsAccount;
+//	BankAccount *p2= new CheckingAccount;
+//	p->deposit();
+//	p->withdraw();
+//	p2->deposit();
+//	p2->withdraw();
+//}
+
+//================================ Qustion 5 ===============================
+class Employee{
+	protected:
+		string name,department;
 	public:
-		virtual void calculate_area()=0;
-		virtual void perimeter()=0;
+		virtual void calculateSalary()=0;
+		virtual void displayDetails()=0;
 		void information(){
-			cout<<"Show calculate area and perimeter of Circle And Rectangle";
+			cout<<"Salary Of Manager And Worker";
 		}
 };
-class Circle:public Shape{
-	void calculate_area(){
-		double n=4.0;
-		double area=3.14*n*n;
-		cout<<"Circ-Calculate area\n"<<area<<endl;
+class Manager:public Employee{
+	public:
+	Manager(string n,string d){
+		name=n;
+		department=d;
 	}
-	void perimeter(){
-		double n=4.0;
-		double perimeter=2*3.14*n; // 2PaiR
-		cout<<"Circ-Perimeter\n"<<perimeter<<endl;
+	void displayDetails(){
+	
+		cout<<"Name:"<<name<<endl;
+		cout<<"Department:"<<department<<endl;
+	}
+	void calculateSalary(){
+		cout<<"Salary+HRA+Company Share+Parck\n";
 	}
 };
-class Rectangle:public Shape{
-	void calculate_area(){
-		double l=2,b=4;
-		double area=l*b;
-		cout<<"Rect-Calculate area\n"<<area<<endl;
+class Worker:public Employee{
+	public:
+		Worker(string n,string d){
+		name=n;
+		department=d;
 	}
-	void perimeter(){
-		double l=2,b=4;
-		double perimeter=2*(l+b);
-		cout<<"Rect-Perimeter\n"<<perimeter<<endl;
+	void displayDetails(){
+		
+		cout<<"Name:"<<name<<endl;
+		cout<<"Department:"<<department<<endl;
+	}
+	void calculateSalary(){
+		cout<<"Salary+HRA\n";
 	}
 };
 int main(){
-	Shape *p= new Circle;
-	Shape *p2= new Rectangle;
-	p->calculate_area();
-	p->perimeter();
-	p2->calculate_area();
-	p2->perimeter();
+	Employee *p= new Manager("ajay","HR");
+	Employee *p2= new Worker("shayam","abc");
+	p->displayDetails();
+	p->calculateSalary();
+	p2->displayDetails();
+	p2->calculateSalary();
+	
 }
