@@ -79,3 +79,42 @@ using namespace std;
 // 	p2->calculate_area();
 // 	p2->perimeter();
 // }
+
+//================================ Qustion 3 ===============================
+class BankAccount{
+	public:
+		virtual void deposit()=0;
+		virtual void withdraw()=0;
+		void information(){
+			cout<<"Checking BankAcoount";
+		}
+};
+class SavingsAccount:public BankAccount{
+
+	void deposit(){
+		int amount=10000,deposit=12000;
+		    deposit=deposit+amount;
+		    cout<<"SavingsAccount Amount After Deposit"<<deposit<<endl;
+	}
+	void withdraw(){
+		int amount=10000,deposit=22000,withdraw=7000;
+		deposit=deposit-withdraw;
+		cout<<"SavingsAccount Amount After Withdraw"<<deposit<<endl;
+	}
+};
+class CheckingAccount:public BankAccount{
+	void deposit(){
+		cout<<"CheckingAccount Deposit\n";
+	}
+	void withdraw(){
+		cout<<"CheckingAccount Withdraw\n";
+	}
+};
+int main(){
+	BankAccount *p= new SavingsAccount;
+	BankAccount *p2= new CheckingAccount;
+	p->deposit();
+	p->withdraw();
+	p2->deposit();
+	p2->withdraw();
+}
