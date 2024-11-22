@@ -81,40 +81,91 @@ using namespace std;
 // }
 
 //================================ Qustion 3 ===============================
-class BankAccount{
+//class BankAccount{
+//	public:
+//		virtual void deposit()=0;
+//		virtual void withdraw()=0;
+//		void information(){
+//			cout<<"Checking BankAcoount";
+//		}
+//};
+//class SavingsAccount:public BankAccount{
+//
+//	void deposit(){
+//		int amount=10000,deposit=12000;
+//		    deposit=deposit+amount;
+//		    cout<<"SavingsAccount Amount After Deposit"<<deposit<<endl;
+//	}
+//	void withdraw(){
+//		int amount=10000,deposit=22000,withdraw=7000;
+//		deposit=deposit-withdraw;
+//		cout<<"SavingsAccount Amount After Withdraw"<<deposit<<endl;
+//	}
+//};
+//class CheckingAccount:public BankAccount{
+//	void deposit(){
+//		cout<<"CheckingAccount Deposit\n";
+//	}
+//	void withdraw(){
+//		cout<<"CheckingAccount Withdraw\n";
+//	}
+//};
+//int main(){
+//	BankAccount *p= new SavingsAccount;
+//	BankAccount *p2= new CheckingAccount;
+//	p->deposit();
+//	p->withdraw();
+//	p2->deposit();
+//	p2->withdraw();
+//}
+
+//================================ Qustion 5 ===============================
+class Employee{
+	protected:
+		string name,department;
 	public:
-		virtual void deposit()=0;
-		virtual void withdraw()=0;
+		virtual void calculateSalary()=0;
+		virtual void displayDetails()=0;
 		void information(){
-			cout<<"Checking BankAcoount";
+			cout<<"Salary Of Manager And Worker";
 		}
 };
-class SavingsAccount:public BankAccount{
-
-	void deposit(){
-		int amount=10000,deposit=12000;
-		    deposit=deposit+amount;
-		    cout<<"SavingsAccount Amount After Deposit"<<deposit<<endl;
+class Manager:public Employee{
+	public:
+	Manager(string n,string d){
+		name=n;
+		department=d;
 	}
-	void withdraw(){
-		int amount=10000,deposit=22000,withdraw=7000;
-		deposit=deposit-withdraw;
-		cout<<"SavingsAccount Amount After Withdraw"<<deposit<<endl;
+	void displayDetails(){
+	
+		cout<<"Name:"<<name<<endl;
+		cout<<"Department:"<<department<<endl;
+	}
+	void calculateSalary(){
+		cout<<"Salary+HRA+Company Share+Parck\n";
 	}
 };
-class CheckingAccount:public BankAccount{
-	void deposit(){
-		cout<<"CheckingAccount Deposit\n";
+class Worker:public Employee{
+	public:
+		Worker(string n,string d){
+		name=n;
+		department=d;
 	}
-	void withdraw(){
-		cout<<"CheckingAccount Withdraw\n";
+	void displayDetails(){
+		
+		cout<<"Name:"<<name<<endl;
+		cout<<"Department:"<<department<<endl;
+	}
+	void calculateSalary(){
+		cout<<"Salary+HRA\n";
 	}
 };
 int main(){
-	BankAccount *p= new SavingsAccount;
-	BankAccount *p2= new CheckingAccount;
-	p->deposit();
-	p->withdraw();
-	p2->deposit();
-	p2->withdraw();
+	Employee *p= new Manager("ajay","HR");
+	Employee *p2= new Worker("shayam","abc");
+	p->displayDetails();
+	p->calculateSalary();
+	p2->displayDetails();
+	p2->calculateSalary();
+	
 }
