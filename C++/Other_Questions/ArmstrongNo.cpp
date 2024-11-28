@@ -16,3 +16,24 @@ int main(){
 	else 
 	     cout<<"No it is not Armstrong Number:";   
 }
+
+
+//#include <iostream>
+//using namespace std;
+//int main(){
+//	int num,last,sum=0;
+//	cout<<"Enter Number:";
+//	cin>>num;
+//	int temp=num;
+//	while(num>0){
+//		last = num%10;
+//		sum=sum+last*last*last;
+//		num=num/10;
+//	}
+//	if(temp==sum){
+//		cout<<"Armstrong";
+//	}
+//	else 
+//	    cout<<"not Armstrong";
+//}
+
