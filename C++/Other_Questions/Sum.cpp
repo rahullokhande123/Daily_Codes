@@ -11,3 +11,21 @@
 // 	}
 // 	cout<<" "<<sum;
 // }
+
+
+#include <iostream>
+using namespace std;
+int main(){
+	int a,sum=0;
+	while(1){
+		cout<<"enter a number:";
+		cin>>a;
+		sum=sum+a;
+		cout<<sum<<endl;
+		if(a%10==0){
+		   cout<<"thank u for using our service...";
+	   	   break; //exit point
+	   }
+  }
+  cout<<"Sum:"<<sum<<endl;
+} 
