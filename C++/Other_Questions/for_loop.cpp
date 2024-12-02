@@ -92,3 +92,48 @@ int main(){
 		
 	}
 }
+
+// =====================================================================
+
+//#include <iostream>
+//using namespace std;
+//int main(){
+//	char ch='A';
+//	for(int i=1;i<=4;i++){
+//		for(int j=1;j<=5;j++){
+//			cout<<ch;
+//			ch++;
+//			}
+//		cout<<endl;
+//	}
+//}
+
+
+//#include <iostream>
+//using namespace std;
+//int main(){
+//	char ch='A';
+//	for(int i=1;i<=5;i++){  // Row
+//		for(int j=1;j<=6;j++){ // Colume
+//			cout<<ch;
+//			ch++;
+//		}
+//		cout<<"\n";
+//	}
+//	
+//}
+
+#include <iostream>
+using namespace std;
+int main(){
+	char ch='A';
+	for(int i=1;i<=5;i++){
+		for(int j=1;j<=5;j++){
+			cout<<ch;
+			ch++;
+		}
+		
+		cout<<"\n";
+	}
+	
+}
