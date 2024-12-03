@@ -123,17 +123,38 @@ int main(){
 //	
 //}
 
+// ============================================
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+// 	char ch='A';
+// 	for(int i=1;i<=5;i++){
+// 		for(int j=1;j<=5;j++){
+// 			cout<<ch;
+// 			ch++;
+// 		}
+		
+// 		cout<<"\n";
+// 	}
+	
+// }
+
+// =========================================
+
 #include <iostream>
 using namespace std;
 int main(){
-	char ch='A';
-	for(int i=1;i<=5;i++){
-		for(int j=1;j<=5;j++){
-			cout<<ch;
-			ch++;
-		}
+	int range,num,sum=0;
+	cout<<"enter range:";
+	cin>>range;
+	for(int i=1;i<=range;i++){
+		cout<<"enter number:";
+		cin>>num;
+		if(num%2==0){
 		
-		cout<<"\n";
+		sum=sum+num;
+		}
+		cout<<"SUM:"<<sum;
 	}
-	
 }
