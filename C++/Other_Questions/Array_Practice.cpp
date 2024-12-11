@@ -44,3 +44,17 @@ void create_array(int a[],int n){
 		cin>>a[i];
 	}
 }
+void display(int a[],int n){
+	for(int i=0;i<n;i++){
+		cout<<a[i]<<" ";
+	}
+}
+int main(){
+	int size;
+	cout<<"enter size:";
+	cin>>size;
+	int arr[size];
+	create_array(arr,size);
+	display(arr,size);
+	search(arr,size);
+}
