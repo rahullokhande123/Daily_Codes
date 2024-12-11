@@ -38,3 +38,9 @@ void search(int a[],int n){
 //		}
 	}
 };
+void create_array(int a[],int n){
+	for(int i=0;i<n;i++){
+		cout<<"enter number:";
+		cin>>a[i];
+	}
+}
