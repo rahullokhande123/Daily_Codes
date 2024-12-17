@@ -102,3 +102,16 @@ int main(){
 //	cout<<arr[2][2]<<" ";
 //	
 //}
+
+
+#include <iostream>
+using namespace std;
+f(int a[],int n,int u){
+	int count=0;
+	for(int i=0;i<n;i++){
+		if(a[i]==u){
+			count++;
+		}
+	}
+	cout<<count;
+}
