@@ -58,3 +58,69 @@ int main(){
 	display(arr,size);
 	search(arr,size);
 }
+
+
+// =====================================================
+
+//#include <iostream>
+//using namespace std;
+//int main(){
+//	int r,c;
+//	cout<<"enter numbre's':";
+//	cin>>r>>c;
+//	int arr[r][c];
+//	for(int i=0;i<r;i++){
+//    	for(int j=0;j<c;j++){
+//    	  cout<<"enter vlue of index no.";
+//    	  cin>>arr[i][j];	
+//		}
+//		
+//	}
+//	for(int i=0;i<r;i++){
+//    	for(int j=0;j<c;j++){
+//    	 cout<<arr[i][j]<<" ";	
+//		}
+//          cout<<endl;
+//	}
+//
+//}
+
+//#include <iostream>
+//using namespace std;
+//int main(){
+//	int arr[3][3]={11,22,33,44,55,66,77,88,99};
+//	cout<<arr[0][0]<<" ";
+//	cout<<arr[0][1]<<" ";
+//	cout<<arr[0][2]<<" ";
+//	cout<<endl;
+//	cout<<arr[1][0]<<" ";
+//	cout<<arr[1][1]<<" ";
+//	cout<<arr[1][2]<<" ";
+//	cout<<endl;
+//	cout<<arr[2][0]<<" ";
+//	cout<<arr[2][1]<<" ";
+//	cout<<arr[2][2]<<" ";
+//	
+//}
+
+
+#include <iostream>
+using namespace std;
+f(int a[],int n,int u){
+	int count=0;
+	for(int i=0;i<n;i++){
+		if(a[i]==u){
+			count++;
+		}
+	}
+	cout<<count;
+}
+int main(){
+	int u;
+	cout<<"{12,5,55,66,12,55,12,13,12}"<<endl;
+	cout<<"Choice Number For Seem";
+	cin>>u;
+	int arr[]={12,5,55,66,12,55,12,13,12};
+	int size=sizeof(arr)/sizeof(arr[0]);
+	f(arr,size,u);
+}
