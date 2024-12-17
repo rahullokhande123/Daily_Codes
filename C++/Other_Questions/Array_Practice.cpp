@@ -115,3 +115,12 @@ f(int a[],int n,int u){
 	}
 	cout<<count;
 }
+int main(){
+	int u;
+	cout<<"{12,5,55,66,12,55,12,13,12}"<<endl;
+	cout<<"Choice Number For Seem";
+	cin>>u;
+	int arr[]={12,5,55,66,12,55,12,13,12};
+	int size=sizeof(arr)/sizeof(arr[0]);
+	f(arr,size,u);
+}
