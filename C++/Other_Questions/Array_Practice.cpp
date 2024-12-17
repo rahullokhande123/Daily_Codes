@@ -58,3 +58,29 @@ int main(){
 	display(arr,size);
 	search(arr,size);
 }
+
+
+// =====================================================
+
+//#include <iostream>
+//using namespace std;
+//int main(){
+//	int r,c;
+//	cout<<"enter numbre's':";
+//	cin>>r>>c;
+//	int arr[r][c];
+//	for(int i=0;i<r;i++){
+//    	for(int j=0;j<c;j++){
+//    	  cout<<"enter vlue of index no.";
+//    	  cin>>arr[i][j];	
+//		}
+//		
+//	}
+//	for(int i=0;i<r;i++){
+//    	for(int j=0;j<c;j++){
+//    	 cout<<arr[i][j]<<" ";	
+//		}
+//          cout<<endl;
+//	}
+//
+//}
