@@ -84,3 +84,21 @@ int main(){
 //	}
 //
 //}
+
+//#include <iostream>
+//using namespace std;
+//int main(){
+//	int arr[3][3]={11,22,33,44,55,66,77,88,99};
+//	cout<<arr[0][0]<<" ";
+//	cout<<arr[0][1]<<" ";
+//	cout<<arr[0][2]<<" ";
+//	cout<<endl;
+//	cout<<arr[1][0]<<" ";
+//	cout<<arr[1][1]<<" ";
+//	cout<<arr[1][2]<<" ";
+//	cout<<endl;
+//	cout<<arr[2][0]<<" ";
+//	cout<<arr[2][1]<<" ";
+//	cout<<arr[2][2]<<" ";
+//	
+//}
