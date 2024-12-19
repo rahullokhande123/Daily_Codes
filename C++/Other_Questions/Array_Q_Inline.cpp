@@ -14,3 +14,10 @@ using namespace std;
 			j++;
 		}
 	}
+    int main(){
+	int ar[7]={0,1,1,0,1,0,1};
+	move_zero(ar,7);
+	for(int i=0;i<7;i++){
+		cout<<ar[i]<<" ";
+	}
+}
