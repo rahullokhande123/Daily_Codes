@@ -32,3 +32,32 @@
 //	b.Sale();
 //	b.currentstock();
 //}
+
+//============================ Qustion 2 ================================
+
+//#include <iostream>
+//using namespace std;
+//class Circle{
+//	private:
+//		int radius;
+//		
+//	public:
+//		Circle(int r ){
+//			radius=r;
+//		}
+//		void area_calculation(){
+//			 cout<<3.14*radius*radius<<endl;
+//		}
+//		void perimeter(){
+//			cout<<3.14*2*radius<<endl;
+//		}
+//		void display(){
+//		     cout<<"Redius:"<<radius<<endl;
+//		}
+//};
+//int main (){
+//	Circle c(4);
+//	c.display();
+//	c.area_calculation();
+//	c.perimeter();
+//	}
