@@ -61,3 +61,38 @@
 //	c.area_calculation();
 //	c.perimeter();
 //	}
+
+//============================ Qustion 3 ================================
+
+//#include <iostream>
+//using namespace std;
+//class Animal{
+//	string name,category,details;
+//	int no_lags;
+//	void set_ditails(){
+//		if(category=="herbivores") details="Amimal eat plant:";
+//		else if(category=="carnivores") details="Amimal That Eat Only Meat:";
+//		else if(category=="omnivores") details="Amimal That Eat Boath Plants & Meat:";
+//	}
+//	public:
+//		Animal(string n, string c, int l){
+//			name=n;
+//			category=c;
+//			no_lags=l;
+//			set_ditails();
+//		}
+//		void displayAll(){
+//			cout<<"Name"<<name<<endl;
+//			cout<<"Category:"<<category<<endl;
+//			cout<<"Amimal Leg's"<<no_lags<<endl;
+//			cout<<details<<endl;
+//		}
+//		void displayCategory(){
+//			cout<<"Category:"<<category<<endl;
+//		}
+//};
+//int main(){
+//	Animal a("Tiger","carnivores",4);
+//	a.displayAll();
+//	a.displayCategory();
+//}
