@@ -211,3 +211,7 @@
 //                 cout<<"Highest No."<<high<<endl;
 //		}
 //};
+//int main(){
+//	Higher h(500,90,70);
+//	h.highest_number();
+//}
