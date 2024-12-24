@@ -96,3 +96,46 @@
 //	a.displayAll();
 //	a.displayCategory();
 //}
+
+//============================ Qustion 4 ================================
+
+//#include <iostream>
+//using namespace std;
+//class Resume{
+//	private:
+//		string name;
+//		double per10,per12,perdegree;
+//		bool working; 
+//	public:
+//		Resume(string n, double p1, double p2, double p3,bool w){
+//			name=n;
+//			per10=p1;
+//			per12=p2;
+//			perdegree=p3;
+//			working=w;
+//			
+//		}
+//		void update_percent(double p1, double p2, double p3){
+//			per10=p1;
+//			per12=p2;
+//			perdegree=p3;
+//		}
+//		void update_name(string n){
+//			name=n;
+//		}
+//		
+//		void display(){
+//			cout<<"Name:"<<name<<endl;
+//			cout<<"10th Percenteg"<<per10<<endl;
+//			cout<<"12h Percenteg"<<per12<<endl;
+//			cout<<"Graduation"<<perdegree<<endl;
+//			cout<<"Current Working "<<working<<endl;
+//		}
+//};
+//int main (){
+//	Resume r("Rahul",65,68,85,true);
+//	r.display();
+//	r.update_name("Arun");
+//	r.update_percent(20,20,20);
+//	r.display();
+//}
