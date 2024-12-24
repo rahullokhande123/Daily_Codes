@@ -96,3 +96,122 @@
 //	a.displayAll();
 //	a.displayCategory();
 //}
+
+//============================ Qustion 4 ================================
+
+//#include <iostream>
+//using namespace std;
+//class Resume{
+//	private:
+//		string name;
+//		double per10,per12,perdegree;
+//		bool working; 
+//	public:
+//		Resume(string n, double p1, double p2, double p3,bool w){
+//			name=n;
+//			per10=p1;
+//			per12=p2;
+//			perdegree=p3;
+//			working=w;
+//			
+//		}
+//		void update_percent(double p1, double p2, double p3){
+//			per10=p1;
+//			per12=p2;
+//			perdegree=p3;
+//		}
+//		void update_name(string n){
+//			name=n;
+//		}
+//		
+//		void display(){
+//			cout<<"Name:"<<name<<endl;
+//			cout<<"10th Percenteg"<<per10<<endl;
+//			cout<<"12h Percenteg"<<per12<<endl;
+//			cout<<"Graduation"<<perdegree<<endl;
+//			cout<<"Current Working "<<working<<endl;
+//		}
+//};
+//int main (){
+//	Resume r("Rahul",65,68,85,true);
+//	r.display();
+//	r.update_name("Arun");
+//	r.update_percent(20,20,20);
+//	r.display();
+//}
+
+//====================== Qustion 5 ======================== 
+//#include <iostream>
+//using namespace std;
+//class Student{
+//	protected:
+//		string student_name;
+//		int s1,s2,s3,s4,s5;
+//		char grade;
+//		double per;
+//	public:
+//	Student(string n,int a,int b,int c,int d,int e){
+//		s1=a;
+//		s2=b;
+//		s3=c;
+//		s4=d;
+//		s5=e;
+//		student_name=n;
+//	}
+//	void calculate_per(){
+//		per=(s1+s2+s3+s4+s5)/5.0;
+//	}
+//	void calculate_grade(){
+//		if(per>=60){
+//			grade='A';
+//		}
+//		else if(per>=50){
+//			grade='B';
+//		}
+//		else if(per>=40){
+//			grade='C';
+//		}
+//		else if(per<40){
+//			grade='D';
+//		}	
+//	}
+//	void display(){
+//		cout<<"Name:"<<student_name<<endl;
+//		cout<<"Percentage:"<<per<<endl;
+//		cout<<"Grade:"<<grade<<endl;
+//	}	
+//};
+//int main(){
+//	Student s("Rahul",50,55,60,66,70);
+//	s.calculate_per();
+//	s.calculate_grade();
+//	s.display();
+//}
+
+//========================================= Qustion 6 =====================================
+//#include <iostream>
+//using namespace std;
+//class Higher{
+//	private:
+//		int n1,n2,n3,high;
+//	public:
+//		Higher(int num1,int num2,int num3){
+//			n1=num1;
+//			n2=num2;
+//			n3=num3;
+//		}
+//		void highest_number(){
+////			n1=high
+//            if(n1>n2 && n1>n3)
+//                 high=n1;
+//            else if(n2>n1 && n2>n3)
+//                 high=n2;
+//            else if(n3>n1 && n3>n2)
+//                 high=n3;
+//                 cout<<"Highest No."<<high<<endl;
+//		}
+//};
+//int main(){
+//	Higher h(500,90,70);
+//	h.highest_number();
+//}
