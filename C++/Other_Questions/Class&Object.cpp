@@ -215,3 +215,26 @@
 //	Higher h(500,90,70);
 //	h.highest_number();
 //}
+
+//============================= Qustion 7 ===============================
+//
+//#include <iostream>
+//using namespace std;
+//class Swape{
+//	private:
+//		int num1,num2;
+//	public:
+//		Swape(int n1,int n2){
+//		    num1=n1;
+//		    num2=n2;
+//		}
+//		void swape_number(){
+//			int hold=num1;
+//			num1=num2;
+//			num2=hold;
+//			cout<<"After Swaping Num1 & Num2: "<<num1<<" "<<num2<<endl;
+//		}
+//		void before_swaping(){
+//			cout<<"Befor Swaping Num1 & Num2: "<<num1<<" "<<num2<<endl;
+//		}
+//};
