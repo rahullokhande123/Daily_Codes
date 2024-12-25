@@ -238,3 +238,8 @@
 //			cout<<"Befor Swaping Num1 & Num2: "<<num1<<" "<<num2<<endl;
 //		}
 //};
+//int main(){
+//	Swape s(60,80);
+//	s.before_swaping();
+//	s.swape_number();
+//}
