@@ -215,3 +215,111 @@
 //	Higher h(500,90,70);
 //	h.highest_number();
 //}
+
+//============================= Qustion 7 ===============================
+//
+//#include <iostream>
+//using namespace std;
+//class Swape{
+//	private:
+//		int num1,num2;
+//	public:
+//		Swape(int n1,int n2){
+//		    num1=n1;
+//		    num2=n2;
+//		}
+//		void swape_number(){
+//			int hold=num1;
+//			num1=num2;
+//			num2=hold;
+//			cout<<"After Swaping Num1 & Num2: "<<num1<<" "<<num2<<endl;
+//		}
+//		void before_swaping(){
+//			cout<<"Befor Swaping Num1 & Num2: "<<num1<<" "<<num2<<endl;
+//		}
+//};
+//int main(){
+//	Swape s(60,80);
+//	s.before_swaping();
+//	s.swape_number();
+//}
+
+//======================== Qustion 8 ==============================
+
+//#include <iostream>
+//using namespace std;
+//class Factorial{
+//	private:
+//		int num,fect=1;
+//	public:
+//		Factorial(int n){
+//			num=n;
+//		}
+//		void find_factorial(){
+//		
+//			cout<<num<<"!=";
+//			for(int i=num;i>=1;i--){
+//				if(i==1){
+//					cout<<i<<"=";
+//				}
+//				else 
+//				   cout<<i<<"*";
+//				   fect=fect*i;
+//				   
+//			}
+//			cout<<fect;
+//		}
+//};
+
+//int main(){
+//	Factorial f(4);
+//	f.find_factorial();
+//}
+
+//======================== Qustion 9 ==============================
+//#include <iostream>
+//using namespace std;
+//class Determiner{
+//	private: int num,s;
+//	        
+//	public:
+//		Determiner(int n){
+//			num=n;
+//			s=n;
+////			temp=num;
+//		}
+//		void palindrome(){
+//			int temp,last,sum=0;
+//			temp=num;
+//			while(num>0){
+//				last=num%10;
+//				sum=sum*10+last;
+//				num=num/10;
+//			}
+//			if(temp==sum){
+//				cout<<"it is a palindrom No."<<endl;
+//			}
+//			else
+//			   cout<<"Not Palindrom:"<<endl;
+//		}
+//		void armstrong(){
+//			int last,temp,sum=0;
+//			temp=s;
+//			while(s>0){
+//				last=s%10;
+//				sum=sum+last*last*last;
+//				s=s/10;
+//			}
+//			if(temp==sum){
+//				cout<<"It is Armstrom No."<<endl;
+//			}
+//			else
+//			    cout<<"Not Armstrom "<<endl;
+//		}
+//};
+
+//int main(){
+//	Determiner d(353);
+//	d.palindrome();
+//	d.armstrong();
+//}
