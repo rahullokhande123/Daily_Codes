@@ -317,3 +317,9 @@
 //			    cout<<"Not Armstrom "<<endl;
 //		}
 //};
+
+//int main(){
+//	Determiner d(353);
+//	d.palindrome();
+//	d.armstrong();
+//}
