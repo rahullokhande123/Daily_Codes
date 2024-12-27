@@ -323,3 +323,30 @@
 //	d.palindrome();
 //	d.armstrong();
 //}
+
+//====================== Qustion Inheritance 1 =========================
+
+//#include <iostream>
+//using namespace std;
+//class Factorial{
+//	private:
+//		int num,fect=1;
+//	public:
+//		Factorial(int n){
+//			num=n;
+//		}
+//		void find_factorial(){
+//		
+//			cout<<num<<"!=";
+//			for(int i=num;i>=1;i--){
+//				if(i==1){
+//					cout<<i<<"=";
+//				}
+//				else 
+//				   cout<<i<<"*";
+//				   fect=fect*i;
+//				   
+//			}
+//			cout<<fect;
+//		}
+//};
