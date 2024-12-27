@@ -350,3 +350,7 @@
 //			cout<<fect;
 //		}
 //};
+//int main(){
+//	Factorial f(4);
+//	f.find_factorial();
+//}
