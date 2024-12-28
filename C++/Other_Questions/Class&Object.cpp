@@ -377,3 +377,34 @@
 //                 cout<<"Highest No."<<high<<endl;
 //		}
 //};
+
+//class LowestHighest: public Higher{
+//	private:
+//		int low;
+//	public:
+//		LowestHighest(int num1,int num2,int num3):Higher(num1,num2,num3){
+//			
+//		}
+//	
+//		void lowest_number(){
+//            if(n1>n2 && n1>n3){
+//                if(n2>n3)
+//                    low=n3;
+//                 else
+//                    low=n2;
+//                }
+//            else if(n2>n1 && n2>n3){
+//                if(n1>n3)
+//                  low=n3;
+//                else
+//                  low=n1;
+//                }
+//            else if(n3>n1 && n3>n2){
+//                if(n1>n2)
+//                 low=n2;
+//                else
+//                 low=n1;
+//                } 
+//            cout<<"Lowest No."<<low<<endl;
+//		}
+//};
