@@ -323,3 +323,93 @@
 //	d.palindrome();
 //	d.armstrong();
 //}
+
+//====================== Qustion Inheritance 1 =========================
+
+//#include <iostream>
+//using namespace std;
+//class Factorial{
+//	private:
+//		int num,fect=1;
+//	public:
+//		Factorial(int n){
+//			num=n;
+//		}
+//		void find_factorial(){
+//		
+//			cout<<num<<"!=";
+//			for(int i=num;i>=1;i--){
+//				if(i==1){
+//					cout<<i<<"=";
+//				}
+//				else 
+//				   cout<<i<<"*";
+//				   fect=fect*i;
+//				   
+//			}
+//			cout<<fect;
+//		}
+//};
+//int main(){
+//	Factorial f(4);
+//	f.find_factorial();
+//}
+
+//=========================================================================
+//#include <iostream>
+//using namespace std;
+//class Higher{
+//	protected:
+//		int n1,n2,n3,high;
+//	public:
+//		Higher(int num1,int num2,int num3){
+//			n1=num1;
+//			n2=num2;
+//			n3=num3;
+//		}
+//		void highest_number(){
+//            if(n1>n2 && n1>n3)
+//                 high=n1;
+//            else if(n2>n1 && n2>n3)
+//                 high=n2;
+//            else if(n3>n1 && n3>n2)
+//                 high=n3;
+//                 cout<<"Highest No."<<high<<endl;
+//		}
+//};
+
+//class LowestHighest: public Higher{
+//	private:
+//		int low;
+//	public:
+//		LowestHighest(int num1,int num2,int num3):Higher(num1,num2,num3){
+//			
+//		}
+//	
+//		void lowest_number(){
+//            if(n1>n2 && n1>n3){
+//                if(n2>n3)
+//                    low=n3;
+//                 else
+//                    low=n2;
+//                }
+//            else if(n2>n1 && n2>n3){
+//                if(n1>n3)
+//                  low=n3;
+//                else
+//                  low=n1;
+//                }
+//            else if(n3>n1 && n3>n2){
+//                if(n1>n2)
+//                 low=n2;
+//                else
+//                 low=n1;
+//                } 
+//            cout<<"Lowest No."<<low<<endl;
+//		}
+//};
+//int main(){
+//	LowestHighest l(500,90,70);
+//	l.highest_number();
+//	l.lowest_number();
+//}
