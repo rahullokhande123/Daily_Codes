@@ -354,3 +354,26 @@
 //	Factorial f(4);
 //	f.find_factorial();
 //}
+
+//=========================================================================
+//#include <iostream>
+//using namespace std;
+//class Higher{
+//	protected:
+//		int n1,n2,n3,high;
+//	public:
+//		Higher(int num1,int num2,int num3){
+//			n1=num1;
+//			n2=num2;
+//			n3=num3;
+//		}
+//		void highest_number(){
+//            if(n1>n2 && n1>n3)
+//                 high=n1;
+//            else if(n2>n1 && n2>n3)
+//                 high=n2;
+//            else if(n3>n1 && n3>n2)
+//                 high=n3;
+//                 cout<<"Highest No."<<high<<endl;
+//		}
+//};
