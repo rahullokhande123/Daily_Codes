@@ -408,3 +408,8 @@
 //            cout<<"Lowest No."<<low<<endl;
 //		}
 //};
+//int main(){
+//	LowestHighest l(500,90,70);
+//	l.highest_number();
+//	l.lowest_number();
+//}
