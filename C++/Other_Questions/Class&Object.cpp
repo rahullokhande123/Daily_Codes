@@ -475,3 +475,10 @@
 //			    cout<<"Not Prime";	   
 //		   }
 //};
+//int main(){
+//	DeterminerExtend d(191);
+//	d.palindrome();
+//	d.armstrong();
+//	d.prime_no();
+//	
+//}
