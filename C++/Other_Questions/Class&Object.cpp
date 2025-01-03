@@ -456,3 +456,22 @@
 //			    cout<<"Not Armstrom "<<endl;
 //		}
 //};
+//class DeterminerExtend: public Determiner{
+//	public:
+//		int n;
+//	       DeterminerExtend(int n):Determiner(n){
+//		   }
+//		void prime_no(){
+//		   	int fleg=0;
+//		   	int i=2;
+//		   	while(i<=p/2){
+//		   		if(p%i==0)
+//		   		   fleg=1;
+//		   		   break;
+//			   }i++;
+//			if(fleg==0)
+//			      cout<<"Prime No.";
+//			else
+//			    cout<<"Not Prime";	   
+//		   }
+//};
