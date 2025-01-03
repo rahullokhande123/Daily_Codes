@@ -413,3 +413,46 @@
 //	l.highest_number();
 //	l.lowest_number();
 //}
+
+//====================== Qustion Inheritance 2 =========================
+//#include <iostream>
+//using namespace std;
+//class Determiner{
+//	protected: int num,s,p;
+//	        
+//	public:
+//		Determiner(int n){
+//			num=n;
+//			s=n;
+//			p=n;
+////			temp=num;
+//		}
+//		void palindrome(){
+//			int temp,last,sum=0;
+//			temp=num;
+//			while(num>0){
+//				last=num%10;
+//				sum=sum*10+last;
+//				num=num/10;
+//			}
+//			if(temp==sum){
+//				cout<<"it is a palindrom No."<<endl;
+//			}
+//			else
+//			   cout<<"Not Palindrom:"<<endl;
+//		}
+//		void armstrong(){
+//			int last,temp,sum=0;
+//			temp=s;
+//			while(s>0){
+//				last=s%10;
+//				sum=sum+last*last*last;
+//				s=s/10;
+//			}
+//			if(temp==sum){
+//				cout<<"It is Armstrom No."<<endl;
+//			}
+//			else
+//			    cout<<"Not Armstrom "<<endl;
+//		}
+//};
