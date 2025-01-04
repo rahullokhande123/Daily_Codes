@@ -525,3 +525,25 @@
 //		cout<<"Grade:"<<grade<<endl;
 //	}	
 //};
+
+//class StudentPersonal:public Student{
+//	
+//	protected:
+//		string father_name,mother_name;
+//		int aadhar;
+//	public:
+//		StudentPersonal(string f, string m, int aadh,string n,int a,int b,int c,int d,int e):Student(n,a,b,c,d,e){
+//			father_name=f;
+//			mother_name=m;
+//			aadhar=aadh;
+//		}
+//		void display_all(){
+//			cout<<"Name:"<<student_name<<endl;
+//			cout<<"Father Name:"<<father_name<<endl;
+//			cout<<"Mother Name:"<<mother_name<<endl;
+//			cout<<"Father Name:"<<father_name<<endl;
+//			cout<<"Aadhar No:"<<aadhar<<endl;
+//		    cout<<"Percentage:"<<per<<endl;
+//	     	cout<<"Grade:"<<grade<<endl;
+//		}
+//};
