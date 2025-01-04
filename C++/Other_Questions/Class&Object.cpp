@@ -547,3 +547,7 @@
 //	     	cout<<"Grade:"<<grade<<endl;
 //		}
 //};
+//int main(){
+//	StudentPersonal s("mr bhimrao","Ms Sandhya",22222,"Rahul",44,55,66,77,88);
+//	s.display_all();
+//}
