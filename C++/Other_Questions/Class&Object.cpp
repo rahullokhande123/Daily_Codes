@@ -482,3 +482,46 @@
 //	d.prime_no();
 //	
 //}
+
+//====================================== Inheritance Q3 ============================================
+
+//#include <iostream>
+//using namespace std;
+//class Student{
+//	protected:
+//		string student_name;
+//		int s1,s2,s3,s4,s5;
+//		char grade;
+//		double per;
+//	public:
+//	Student(string n,int a,int b,int c,int d,int e){
+//		s1=a;
+//		s2=b;
+//		s3=c;
+//		s4=d;
+//		s5=e;
+//		student_name=n;
+//	}
+//	void calculate_per(){
+//		per=(s1+s2+s3+s4+s5)/5.0;
+//	}
+//	void calculate_grade(){
+//		if(per>=60){
+//			grade='A';
+//		}
+//		else if(per>=50){
+//			grade='B';
+//		}
+//		else if(per>=40){
+//			grade='C';
+//		}
+//		else if(per<40){
+//			grade='D';
+//		}	
+//	}
+//	void display(){
+//		cout<<"Name:"<<student_name<<endl;
+//		cout<<"Percentage:"<<per<<endl;
+//		cout<<"Grade:"<<grade<<endl;
+//	}	
+//};
