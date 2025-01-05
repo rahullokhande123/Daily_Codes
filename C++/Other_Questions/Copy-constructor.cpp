@@ -17,3 +17,10 @@ class Student{
 	  void display(){
 	  	cout<<"Name:"<<name<<" age:"<<age<<" marks:"<<marks<<endl;
 	  }
+      	Student(Student &obj){
+	  	 name=obj.name;
+	  	 age=obj.age;
+	  	 marks=obj.marks;
+	  	 cout<<"explicitly code define";	
+	  }	
+};
