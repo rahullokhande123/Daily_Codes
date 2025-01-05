@@ -24,3 +24,10 @@ class Student{
 	  	 cout<<"explicitly code define";	
 	  }	
 };
+int main(){
+	Student s("Aman",34,98);
+	Student s1(s);
+	s.display();
+	s1.display();
+		
+}
