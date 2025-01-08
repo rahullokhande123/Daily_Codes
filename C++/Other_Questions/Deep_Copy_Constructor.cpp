@@ -18,3 +18,8 @@
 //	  void display(){
 //	  	cout<<"Name:"<<name<<" age:"<<age<<" marks:"<<*marks<<endl;
 //	  }
+//	  void change_detail(string n,int a,int m){
+//	  	        name=n;
+//	  	        age=a;
+//	  	       *marks=m;
+//	  }
