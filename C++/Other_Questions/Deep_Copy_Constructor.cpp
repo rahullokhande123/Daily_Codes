@@ -32,3 +32,13 @@
 //	  }	
 //};
 //
+//int main(){
+//	Student s("Aman",34,98);
+//	Student s1(s);
+//	s.display();
+//	s1.display();
+//	cout<<"========================\n";
+//	s1.change_detail("Sohan",23,65);
+//	s.display();
+//	s1.display();		
+//}
