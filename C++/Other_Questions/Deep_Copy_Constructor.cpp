@@ -23,3 +23,12 @@
 //	  	        age=a;
 //	  	       *marks=m;
 //	  }
+//	  Student(Student &obj){ // it is a copy constructor  
+//	  	 name=obj.name;
+//	  	 age=obj.age;
+//	  	 marks=new int;
+//	  	 *marks=*obj.marks;
+//	  	 cout<<"explicitly code define";	
+//	  }	
+//};
+//
