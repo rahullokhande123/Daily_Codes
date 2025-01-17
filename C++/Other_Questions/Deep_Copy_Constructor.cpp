@@ -65,3 +65,9 @@ class Student{
 			cout<<"Age:"<<age<<endl;
 			cout<<"Marks:"<<*marks<<endl;
 		}
+        		void change_distails(string n,int a,int m){
+			name=n;
+			age=a;
+			*marks=m;
+		}
+};
