@@ -55,3 +55,8 @@ class Student{
 			marks=new int;
 			*marks=m;
 		}
+        Student(Student &obj){
+			name=obj.name;
+			age=obj.age;
+			marks=obj.marks;
+		}
