@@ -71,3 +71,12 @@ class Student{
 			*marks=m;
 		}
 };
+
+int main(){
+	Student s1(24,85,"Rahul");
+	Student s2(s1);
+	s1.displayAll();
+	s2.displayAll();
+	s2.change_distails("Arun",25,96);
+	s2.displayAll();
+}
