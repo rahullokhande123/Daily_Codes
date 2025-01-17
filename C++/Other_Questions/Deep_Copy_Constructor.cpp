@@ -42,3 +42,41 @@
 //	s.display();
 //	s1.display();		
 //}
+
+#include <iostream>
+using namespace std;
+class Student{
+	int age,*marks;
+	string name;
+	public:
+		Student(int a,int m,string n){
+			name=n;
+			age=a;
+			marks=new int;
+			*marks=m;
+		}
+        Student(Student &obj){
+			name=obj.name;
+			age=obj.age;
+			marks=obj.marks;
+		}
+        void displayAll(){
+			cout<<"Name:"<<name<<endl;
+			cout<<"Age:"<<age<<endl;
+			cout<<"Marks:"<<*marks<<endl;
+		}
+        		void change_distails(string n,int a,int m){
+			name=n;
+			age=a;
+			*marks=m;
+		}
+};
+
+int main(){
+	Student s1(24,85,"Rahul");
+	Student s2(s1);
+	s1.displayAll();
+	s2.displayAll();
+	s2.change_distails("Arun",25,96);
+	s2.displayAll();
+}
