@@ -42,3 +42,16 @@
 //	s.display();
 //	s1.display();		
 //}
+
+#include <iostream>
+using namespace std;
+class Student{
+	int age,*marks;
+	string name;
+	public:
+		Student(int a,int m,string n){
+			name=n;
+			age=a;
+			marks=new int;
+			*marks=m;
+		}
