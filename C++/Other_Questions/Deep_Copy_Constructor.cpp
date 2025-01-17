@@ -60,3 +60,8 @@ class Student{
 			age=obj.age;
 			marks=obj.marks;
 		}
+        void displayAll(){
+			cout<<"Name:"<<name<<endl;
+			cout<<"Age:"<<age<<endl;
+			cout<<"Marks:"<<*marks<<endl;
+		}
